@@ -15,7 +15,7 @@ public class CarSpawner : MonoBehaviour
         this.StartCoroutine(SpawnRoutine());
     }
     IEnumerator SpawnRoutine()
-    {    // co-routines
+    {
         while (true)
         {
             float timeBetweenSpawnsInSeconds = Random.Range(minTimeBetweenSpawns, maxTimeBetweenSpawns);
